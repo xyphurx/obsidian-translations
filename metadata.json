@@ -1,1 +1,67 @@
-[]
+[
+    {
+        "id": "EIaGBA7ZVGZnEPLMsxQaGZGQf-4EUrgT",
+        "plugin": "obsidian42-brat",
+        "type": "plugin",
+        "language": "zh-cn",
+        "version": "2.0.4",
+        "supported_versions": "2.0.4",
+        "title": "[zh-tw] BRAT",
+        "description": "BRAT Localization & Tweaks",
+        "hash": "630390c6630390c6630390c6630390c6",
+        "created_at": "2026-05-28T02:07:05.589Z",
+        "updated_at": "2026-05-28T02:07:05.589Z"
+    },
+    {
+        "id": "-Yy5BPHB37F3LHnAE5WoTRdLZU8z1qYb",
+        "plugin": "AnuPpuccin",
+        "type": "theme",
+        "language": "zh-cn",
+        "version": "1.0.0",
+        "supported_versions": "1.4.5",
+        "title": "AnuPpuccin",
+        "description": "AnuPpuccin Localization & Tweaks",
+        "hash": "1ee4850d1ee4850d1ee4850d1ee4850d",
+        "created_at": "2026-05-28T02:07:05.592Z",
+        "updated_at": "2026-05-28T02:07:05.592Z"
+    },
+    {
+        "id": "H8VjkZruNX4iegWLrYpd0dv_9OnqPVnM",
+        "plugin": "obsidian-style-settings",
+        "type": "plugin",
+        "language": "zh-cn",
+        "version": "1.0.0",
+        "supported_versions": "1.0.9",
+        "title": "[feichuan][zh-cn] Style Settings",
+        "description": "Style Settings Localization & Tweaks",
+        "hash": "29f605d129f605d129f605d129f605d1",
+        "created_at": "2026-05-28T02:07:05.590Z",
+        "updated_at": "2026-05-28T02:07:05.590Z"
+    },
+    {
+        "id": "4KPM3Giu8iZtkQAbcEVMavtemUxh0r9I",
+        "plugin": "obsidian42-brat",
+        "type": "plugin",
+        "language": "zh-cn",
+        "version": "1.0.0",
+        "supported_versions": "2.0.4",
+        "title": "[feichuan][zh-cn] BRAT",
+        "description": "BRAT Localization & Tweaks",
+        "hash": "025ba662025ba662025ba662025ba662",
+        "created_at": "2026-05-28T02:07:05.593Z",
+        "updated_at": "2026-05-28T02:07:05.593Z"
+    },
+    {
+        "id": "hgoRzc8sPMUiUglyD6TGLUSc-b0Km-kN",
+        "plugin": "obsidian-kanban",
+        "type": "plugin",
+        "language": "zh-cn",
+        "version": "2.0.0",
+        "supported_versions": "2.0.51",
+        "title": "Kanban",
+        "description": "Create markdown-backed Kanban boards in Obsidian.",
+        "hash": "31d6dcc431d6dcc431d6dcc431d6dcc4",
+        "created_at": "2026-05-28T02:07:05.593Z",
+        "updated_at": "2026-05-28T02:07:05.593Z"
+    }
+]

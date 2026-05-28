@@ -1,0 +1,1242 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "home-tab",
+        "version": "1.0.0",
+        "title": "[feichuan][zh-cn] Home tab",
+        "description": "Home tab Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.0.1",
+        "author": "feichuan"
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "<span>Enter to create</span>",
+                    "target": "<span>按回车创建</span>"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Recent files",
+                    "target": "最近文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "none",
+                    "target": "无"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Empty",
+                    "target": "Empty"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Lucide icon",
+                    "target": "Lucide 图标"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Link",
+                    "target": "链接"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Local image",
+                    "target": "本地图片"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "default",
+                    "target": "默认"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Obsidian logo",
+                    "target": "Obsidian 标志"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "custom",
+                    "target": "自定义"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Custom",
+                    "target": "自定义"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Accent color",
+                    "target": "强调色"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Theme default",
+                    "target": "主题默认"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Custom font",
+                    "target": "自定义字体"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Monospace font",
+                    "target": "等宽字体"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Text font",
+                    "target": "正文字体"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Interface font",
+                    "target": "界面字体"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "monthly",
+                    "target": "每月"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Monthly",
+                    "target": "每月"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "yearly",
+                    "target": "每年"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Yearly",
+                    "target": "每年"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "pink",
+                    "target": "粉色"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Pink",
+                    "target": "粉色"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "blue",
+                    "target": "蓝色"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Blue",
+                    "target": "蓝色"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Default",
+                    "target": "默认"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "span",
+                    "target": "span"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Loading home-tab plugin",
+                    "target": "正在加载 home-tab 插件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Close modal",
+                    "target": "关闭模态框"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Set icon",
+                    "target": "设置图标"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Accepts any lucide icon id.",
+                    "target": "接受任何 Lucide 图标 ID。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "If a Home tab is already open it'll focus it instead of opening a new one.",
+                    "target": "如果主页标签页已打开，则聚焦该标签页，而不是打开新标签页。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Enable this to close all the tabs and leave only one Home tab on Obsidian opening.",
+                    "target": "启用此选项可在 Obsidian 打开时关闭所有标签页，仅保留一个主页标签页。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Set Omnisearch as the default search engine.",
+                    "target": "将 Omnisearch 设置为默认搜索引擎。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Displays file path at the right of the filename.",
+                    "target": "在文件名右侧显示文件路径。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Displays shortcuts under the search results.",
+                    "target": "在搜索结果下方显示快捷键。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Set how many results display.",
+                    "target": "设置显示的结果数量。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "The value is in milliseconds.",
+                    "target": "该值以毫秒为单位。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Shows the contextual part of the note that matches the search.",
+                    "target": "显示与搜索匹配的笔记上下文部分。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Shows bookmarked files under the search bar.",
+                    "target": "在搜索栏下方显示已收藏的文件。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Displays recent files under the search bar.",
+                    "target": "在搜索栏下方显示最近文件。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Remembers the recent files of the previous session.",
+                    "target": "记住上一会话的最近文件。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Set how many recent files display.",
+                    "target": "设置显示的最近文件数量。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Remove or set a custom logo. Accepts local files, links to images or lucide icon ids.",
+                    "target": "移除或设置自定义标志。接受本地文件、图片链接或 Lucide 图标 ID。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Set the icon color",
+                    "target": "设置图标颜色"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Set the logo dimensions relative to the title font size.",
+                    "target": "设置标志尺寸相对于标题字体大小的比例。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Interface font, text font, and monospace font options match the fonts set in the Appearance setting tab.",
+                    "target": "界面字体、正文字体和等宽字体选项与外观设置标签页中的字体设置匹配。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Accepts any CSS font-size value.",
+                    "target": "接受任何 CSS 字体大小值。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Set the color of the selected item.",
+                    "target": "设置选中项的颜色。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Year of data that you want to display.",
+                    "target": "要显示的数据年份。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Time between each update in milliseconds. Default is 20000.",
+                    "target": "每次更新的时间间隔（毫秒）。默认值为 20000。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Show by Year or Month.",
+                    "target": "按年或月显示。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Color for lowest activity. Placeholder shows current color.(Default: 204 211, 223)",
+                    "target": "最低活动量的颜色。占位符显示当前颜色。（默认值：204, 211, 223）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Color for low activity. Placeholder shows current color.(Default: 172, 189, 210)",
+                    "target": "低活动量的颜色。占位符显示当前颜色。（默认值：172, 189, 210）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Color for medium activity. Placeholder shows current color.(Default: 141, 166, 198)",
+                    "target": "中等活动量的颜色。占位符显示当前颜色。（默认值：141, 166, 198）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Color for highest activity. Placeholder shows current color.(Default: 109, 144, 185)",
+                    "target": "最高活动量的颜色。占位符显示当前颜色。（默认值：109, 144, 185）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Empty color. Placeholder shows current color.(Default: 236, 237, 240)",
+                    "target": "空颜色。占位符显示当前颜色。（默认值：236, 237, 240）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Cell Radius. integer, default is 1 (display as square), the higher the more round.",
+                    "target": "单元格圆角半径。整数，默认值为 1（显示为方形），数值越大越圆润。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Choose an icon",
+                    "target": "选择一个图标"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Replace new tabs with Home tab",
+                    "target": "用主页标签页替换新标签页"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Open new Home tab on Obsidian start",
+                    "target": "在 Obsidian 启动时打开新的主页标签页"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Close previous session tabs on start",
+                    "target": "启动时关闭上一会话的标签页"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Use Omnisearch",
+                    "target": "使用 Omnisearch"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Search only markdown files",
+                    "target": "仅搜索 Markdown 文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show uncreated files",
+                    "target": "显示未创建的文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show file path",
+                    "target": "显示文件路径"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show shorcuts",
+                    "target": "显示快捷键"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Search results",
+                    "target": "搜索结果"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Search delay",
+                    "target": "搜索延迟"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show excerpt (Omnisearch)",
+                    "target": "显示摘要（Omnisearch）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show bookmarked files",
+                    "target": "显示已书签的文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show recent files",
+                    "target": "显示最近文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Store last recent files",
+                    "target": "存储最近的最近文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Recent files",
+                    "target": "最近文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Logo",
+                    "target": "标志"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Logo icon color",
+                    "target": "标志图标颜色"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Logo scale",
+                    "target": "标志缩放比例"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Title",
+                    "target": "标题"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Title font",
+                    "target": "标题字体"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Title font size",
+                    "target": "标题字号"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Title font weight",
+                    "target": "标题字重"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Title color",
+                    "target": "标题颜色"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Selection highlight",
+                    "target": "选中高亮"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Year",
+                    "target": "年份"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Update Interval:",
+                    "target": "更新间隔："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Heatmap Type:",
+                    "target": "热图类型："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Heatmap Color",
+                    "target": "热图颜色"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Activity 1 Color:",
+                    "target": "活动 1 颜色："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Activity 2 Color:",
+                    "target": "活动 2 颜色："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Activity 3 Color:",
+                    "target": "活动 3 颜色："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Activity 4 Color:",
+                    "target": "活动 4 颜色："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Empty color:",
+                    "target": "空颜色："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Cell Radius:",
+                    "target": "单元格圆角半径："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Type to start search...",
+                    "target": "输入以开始搜索..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Type anything ... ",
+                    "target": "输入任何内容..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Remove bookmark",
+                    "target": "移除书签"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Set custom icon",
+                    "target": "设置自定义图标"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Hide file",
+                    "target": "隐藏文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "The icon id is not valid.",
+                    "target": "图标 ID 无效。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "The path/link/icon is not valid.",
+                    "target": "路径/链接/图标无效。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "The font is not valid.",
+                    "target": "字体无效。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "The CSS unit is not valid.",
+                    "target": "CSS 单位无效。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Reset to default",
+                    "target": "重置为默认值"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Omnisearch plugins is not enabled.",
+                    "target": "Omnisearch 插件未启用。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Surfing plugin is not enabled.",
+                    "target": "Surfing 插件未启用。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Bookmarks plugin is not enabled",
+                    "target": "Bookmarks 插件未启用"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "aria-label",
+                    "source": "Alias of",
+                    "target": "别名"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "aria-label",
+                    "source": "Non exists yet, select to create",
+                    "target": "尚不存在，选择以创建"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "aria-label",
+                    "source": "Not created yet, select to create",
+                    "target": "尚未创建，选择以创建"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "arrow",
+                    "target": "arrow"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "flip",
+                    "target": "flip"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "hide",
+                    "target": "hide"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "offset",
+                    "target": "offset"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "file",
+                    "target": "file"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "folder",
+                    "target": "folder"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "forward",
+                    "target": "forward"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "basename",
+                    "target": "basename"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "aliases",
+                    "target": "aliases"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open new Home tab",
+                    "target": "打开新主页标签页"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Replace current tab",
+                    "target": "替换当前标签页"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Set a custom icon",
+                    "target": "设置自定义图标"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Home tab settings",
+                    "target": "主页标签页设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "General settings",
+                    "target": "通用设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Search settings",
+                    "target": "搜索设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Files display",
+                    "target": "文件显示"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Appearance",
+                    "target": "外观"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Heatmap settings",
+                    "target": "热力图设置"
+                }
+            ],
+            "regex": [
+                {
+                    "source": "Notice(\"Omnisearch plugins is not enabled.\")",
+                    "target": "Notice(\"Omnisearch plugins is not enabled.\")"
+                },
+                {
+                    "source": "Notice(\"Surfing plugin is not enabled.\")",
+                    "target": "Notice(\"Surfing plugin is not enabled.\")"
+                },
+                {
+                    "source": "setName(\"Choose an icon\")",
+                    "target": "setName(\"Choose an icon\")"
+                },
+                {
+                    "source": "setDesc(\"Accepts any lucide icon id.\")",
+                    "target": "setDesc(\"Accepts any lucide icon id.\")"
+                },
+                {
+                    "source": "setTooltip(\"The icon id is not valid.\")",
+                    "target": "setTooltip(\"The icon id is not valid.\")"
+                },
+                {
+                    "source": "setPlaceholder(\"Type to start search...\")",
+                    "target": "setPlaceholder(\"Type to start search...\")"
+                },
+                {
+                    "source": "setButtonText(\"Close modal\")",
+                    "target": "setButtonText(\"Close modal\")"
+                },
+                {
+                    "source": "setButtonText(\"Set icon\")",
+                    "target": "setButtonText(\"Set icon\")"
+                },
+                {
+                    "source": "setTitle(\"Remove bookmark\")",
+                    "target": "setTitle(\"Remove bookmark\")"
+                },
+                {
+                    "source": "setTitle(\"Set custom icon\")",
+                    "target": "setTitle(\"Set custom icon\")"
+                },
+                {
+                    "source": "setTitle(\"Hide file\")",
+                    "target": "setTitle(\"Hide file\")"
+                },
+                {
+                    "source": "setName(\"Replace new tabs with Home tab\")",
+                    "target": "setName(\"Replace new tabs with Home tab\")"
+                },
+                {
+                    "source": "setName(\"Open new Home tab on Obsidian start\")",
+                    "target": "setName(\"Open new Home tab on Obsidian start\")"
+                },
+                {
+                    "source": "setDesc(\"If a Home tab is already open it'll focus it instead of opening a new one.\")",
+                    "target": "setDesc(\"If a Home tab is already open it'll focus it instead of opening a new one.\")"
+                },
+                {
+                    "source": "setName(\"Close previous session tabs on start\")",
+                    "target": "setName(\"Close previous session tabs on start\")"
+                },
+                {
+                    "source": "setDesc(\"Enable this to close all the tabs and leave only one Home tab on Obsidian opening.\")",
+                    "target": "setDesc(\"Enable this to close all the tabs and leave only one Home tab on Obsidian opening.\")"
+                },
+                {
+                    "source": "setName(\"Use Omnisearch\")",
+                    "target": "setName(\"Use Omnisearch\")"
+                },
+                {
+                    "source": "setDesc(\"Set Omnisearch as the default search engine.\")",
+                    "target": "setDesc(\"Set Omnisearch as the default search engine.\")"
+                },
+                {
+                    "source": "setName(\"Search only markdown files\")",
+                    "target": "setName(\"Search only markdown files\")"
+                },
+                {
+                    "source": "setName(\"Show uncreated files\")",
+                    "target": "setName(\"Show uncreated files\")"
+                },
+                {
+                    "source": "setName(\"Show file path\")",
+                    "target": "setName(\"Show file path\")"
+                },
+                {
+                    "source": "setDesc(\"Displays file path at the right of the filename.\")",
+                    "target": "setDesc(\"Displays file path at the right of the filename.\")"
+                },
+                {
+                    "source": "setName(\"Show shorcuts\")",
+                    "target": "setName(\"Show shorcuts\")"
+                },
+                {
+                    "source": "setDesc(\"Displays shortcuts under the search results.\")",
+                    "target": "setDesc(\"Displays shortcuts under the search results.\")"
+                },
+                {
+                    "source": "setName(\"Search results\")",
+                    "target": "setName(\"Search results\")"
+                },
+                {
+                    "source": "setDesc(\"Set how many results display.\")",
+                    "target": "setDesc(\"Set how many results display.\")"
+                },
+                {
+                    "source": "setName(\"Search delay\")",
+                    "target": "setName(\"Search delay\")"
+                },
+                {
+                    "source": "setDesc(\"The value is in milliseconds.\")",
+                    "target": "setDesc(\"The value is in milliseconds.\")"
+                },
+                {
+                    "source": "setName(\"Show excerpt (Omnisearch)\")",
+                    "target": "setName(\"Show excerpt (Omnisearch)\")"
+                },
+                {
+                    "source": "setDesc(\"Shows the contextual part of the note that matches the search.\")",
+                    "target": "setDesc(\"Shows the contextual part of the note that matches the search.\")"
+                },
+                {
+                    "source": "setName(\"Show bookmarked files\")",
+                    "target": "setName(\"Show bookmarked files\")"
+                },
+                {
+                    "source": "setDesc(\"Shows bookmarked files under the search bar.\")",
+                    "target": "setDesc(\"Shows bookmarked files under the search bar.\")"
+                },
+                {
+                    "source": "setName(\"Show recent files\")",
+                    "target": "setName(\"Show recent files\")"
+                },
+                {
+                    "source": "setDesc(\"Displays recent files under the search bar.\")",
+                    "target": "setDesc(\"Displays recent files under the search bar.\")"
+                },
+                {
+                    "source": "setName(\"Store last recent files\")",
+                    "target": "setName(\"Store last recent files\")"
+                },
+                {
+                    "source": "setDesc(\"Remembers the recent files of the previous session.\")",
+                    "target": "setDesc(\"Remembers the recent files of the previous session.\")"
+                },
+                {
+                    "source": "setName(\"Recent files\")",
+                    "target": "setName(\"Recent files\")"
+                },
+                {
+                    "source": "setDesc(\"Set how many recent files display.\")",
+                    "target": "setDesc(\"Set how many recent files display.\")"
+                },
+                {
+                    "source": "setDesc(\"Remove or set a custom logo. Accepts local files, links to images or lucide icon ids.\")",
+                    "target": "setDesc(\"Remove or set a custom logo. Accepts local files, links to images or lucide icon ids.\")"
+                },
+                {
+                    "source": "setTooltip(\"The path/link/icon is not valid.\")",
+                    "target": "setTooltip(\"The path/link/icon is not valid.\")"
+                },
+                {
+                    "source": "setPlaceholder(\"Type anything ... \")",
+                    "target": "setPlaceholder(\"Type anything ... \")"
+                },
+                {
+                    "source": "setName(\"Logo icon color\")",
+                    "target": "setName(\"Logo icon color\")"
+                },
+                {
+                    "source": "setDesc(\"Set the icon color\")",
+                    "target": "setDesc(\"Set the icon color\")"
+                },
+                {
+                    "source": "setName(\"Logo scale\")",
+                    "target": "setName(\"Logo scale\")"
+                },
+                {
+                    "source": "setDesc(\"Set the logo dimensions relative to the title font size.\")",
+                    "target": "setDesc(\"Set the logo dimensions relative to the title font size.\")"
+                },
+                {
+                    "source": "setName(\"Title font\")",
+                    "target": "setName(\"Title font\")"
+                },
+                {
+                    "source": "setDesc(\"Interface font, text font, and monospace font options match the fonts set in the Appearance setting tab.\")",
+                    "target": "setDesc(\"Interface font, text font, and monospace font options match the fonts set in the Appearance setting tab.\")"
+                },
+                {
+                    "source": "setTooltip(\"The font is not valid.\")",
+                    "target": "setTooltip(\"The font is not valid.\")"
+                },
+                {
+                    "source": "setName(\"Title font size\")",
+                    "target": "setName(\"Title font size\")"
+                },
+                {
+                    "source": "setDesc(\"Accepts any CSS font-size value.\")",
+                    "target": "setDesc(\"Accepts any CSS font-size value.\")"
+                },
+                {
+                    "source": "setTooltip(\"The CSS unit is not valid.\")",
+                    "target": "setTooltip(\"The CSS unit is not valid.\")"
+                },
+                {
+                    "source": "setName(\"Title font weight\")",
+                    "target": "setName(\"Title font weight\")"
+                },
+                {
+                    "source": "setName(\"Title color\")",
+                    "target": "setName(\"Title color\")"
+                },
+                {
+                    "source": "setName(\"Selection highlight\")",
+                    "target": "setName(\"Selection highlight\")"
+                },
+                {
+                    "source": "setDesc(\"Set the color of the selected item.\")",
+                    "target": "setDesc(\"Set the color of the selected item.\")"
+                },
+                {
+                    "source": "setDesc(\"Year of data that you want to display.\")",
+                    "target": "setDesc(\"Year of data that you want to display.\")"
+                },
+                {
+                    "source": "setName(\"Update Interval:\")",
+                    "target": "setName(\"Update Interval:\")"
+                },
+                {
+                    "source": "setName(\"Heatmap Type:\")",
+                    "target": "setName(\"Heatmap Type:\")"
+                },
+                {
+                    "source": "setDesc(\"Show by Year or Month.\")",
+                    "target": "setDesc(\"Show by Year or Month.\")"
+                },
+                {
+                    "source": "setName(\"Heatmap Color\")",
+                    "target": "setName(\"Heatmap Color\")"
+                },
+                {
+                    "source": "setName(\"Activity 1 Color:\")",
+                    "target": "setName(\"Activity 1 Color:\")"
+                },
+                {
+                    "source": "setName(\"Activity 3 Color:\")",
+                    "target": "setName(\"Activity 3 Color:\")"
+                },
+                {
+                    "source": "setDesc(\"Color for medium activity. Placeholder shows current color.(Default: 141, 166, 198)\")",
+                    "target": "setDesc(\"Color for medium activity. Placeholder shows current color.(Default: 141, 166, 198)\")"
+                },
+                {
+                    "source": "setName(\"Activity 4 Color:\")",
+                    "target": "setName(\"Activity 4 Color:\")"
+                },
+                {
+                    "source": "setDesc(\"Color for highest activity. Placeholder shows current color.(Default: 109, 144, 185)\")",
+                    "target": "setDesc(\"Color for highest activity. Placeholder shows current color.(Default: 109, 144, 185)\")"
+                },
+                {
+                    "source": "setName(\"Empty color:\")",
+                    "target": "setName(\"Empty color:\")"
+                },
+                {
+                    "source": "setName(\"Cell Radius:\")",
+                    "target": "setName(\"Cell Radius:\")"
+                },
+                {
+                    "source": "setDesc(\"Cell Radius. integer, default is 1 (display as square), the higher the more round.\")",
+                    "target": "setDesc(\"Cell Radius. integer, default is 1 (display as square), the higher the more round.\")"
+                },
+                {
+                    "source": "setTooltip(\"Reset to default\")",
+                    "target": "setTooltip(\"Reset to default\")"
+                },
+                {
+                    "source": "Notice(\"Bookmarks plugin is not enabled\")",
+                    "target": "Notice(\"Bookmarks plugin is not enabled\")"
+                },
+                {
+                    "source": "log(\"Loading home-tab plugin\")",
+                    "target": "log(\"Loading home-tab plugin\")"
+                },
+                {
+                    "source": "name = `__svelte_${hash(rule)}_${uid}`",
+                    "target": "name = `__svelte_${hash(rule)}_${uid}`"
+                },
+                {
+                    "source": "name: `${getUnresolvedLinkBasename(filename)}.md`",
+                    "target": "name: `${getUnresolvedLinkBasename(filename)}.md`"
+                },
+                {
+                    "source": "name: \"applyStyles\"",
+                    "target": "name: \"applyStyles\""
+                },
+                {
+                    "source": "name: \"arrow\"",
+                    "target": "name: \"arrow\""
+                },
+                {
+                    "source": "name: \"computeStyles\"",
+                    "target": "name: \"computeStyles\""
+                },
+                {
+                    "source": "name: \"eventListeners\"",
+                    "target": "name: \"eventListeners\""
+                },
+                {
+                    "source": "name: \"flip\"",
+                    "target": "name: \"flip\""
+                },
+                {
+                    "source": "text: \"reference\"",
+                    "target": "text: \"reference\""
+                },
+                {
+                    "source": "name: \"hide\"",
+                    "target": "name: \"hide\""
+                },
+                {
+                    "source": "name: \"offset\"",
+                    "target": "name: \"offset\""
+                },
+                {
+                    "source": "name: \"popperOffsets\"",
+                    "target": "name: \"popperOffsets\""
+                },
+                {
+                    "source": "name: \"preventOverflow\"",
+                    "target": "name: \"preventOverflow\""
+                },
+                {
+                    "source": "name: \"file-audio\"",
+                    "target": "name: \"file-audio\""
+                },
+                {
+                    "source": "name: \"file-image\"",
+                    "target": "name: \"file-image\""
+                },
+                {
+                    "source": "name: \"file-pie-chart\"",
+                    "target": "name: \"file-pie-chart\""
+                },
+                {
+                    "source": "name: \"file-plus\"",
+                    "target": "name: \"file-plus\""
+                },
+                {
+                    "source": "name: \"file-question\"",
+                    "target": "name: \"file-question\""
+                },
+                {
+                    "source": "name: \"file-text\"",
+                    "target": "name: \"file-text\""
+                },
+                {
+                    "source": "name: \"file-video\"",
+                    "target": "name: \"file-video\""
+                },
+                {
+                    "source": "name: \"file\"",
+                    "target": "name: \"file\""
+                },
+                {
+                    "source": "name: \"folder-open\"",
+                    "target": "name: \"folder-open\""
+                },
+                {
+                    "source": "name: \"folder\"",
+                    "target": "name: \"folder\""
+                },
+                {
+                    "source": "name: \"forward\"",
+                    "target": "name: \"forward\""
+                },
+                {
+                    "source": "name: \"more-horizontal\"",
+                    "target": "name: \"more-horizontal\""
+                },
+                {
+                    "source": "textContent = `${ctx[5].extension}`",
+                    "target": "textContent = `${ctx[5].extension}`"
+                },
+                {
+                    "source": "textContent = `${ctx[5].basename}`",
+                    "target": "textContent = `${ctx[5].basename}`"
+                },
+                {
+                    "source": "name: \"basename\"",
+                    "target": "name: \"basename\""
+                },
+                {
+                    "source": "name: \"aliases\"",
+                    "target": "name: \"aliases\""
+                },
+                {
+                    "source": "name: `${input}.md`",
+                    "target": "name: `${input}.md`"
+                },
+                {
+                    "source": "textContent = `${`",
+                    "target": "textContent = `${`"
+                },
+                {
+                    "source": "textContent = `${ctx[7]}`",
+                    "target": "textContent = `${ctx[7]}`"
+                },
+                {
+                    "source": "textContent = `${ctx[4].name}`",
+                    "target": "textContent = `${ctx[4].name}`"
+                },
+                {
+                    "source": "textContent = `${ctx[4].url}`",
+                    "target": "textContent = `${ctx[4].url}`"
+                },
+                {
+                    "source": "text: \"Set a custom icon\"",
+                    "target": "text: \"Set a custom icon\""
+                },
+                {
+                    "source": "textContent = `${ctx[4]}`",
+                    "target": "textContent = `${ctx[4]}`"
+                },
+                {
+                    "source": "textContent = \"Recent files\"",
+                    "target": "textContent = \"Recent files\""
+                },
+                {
+                    "source": "text: \"Home tab settings\"",
+                    "target": "text: \"Home tab settings\""
+                },
+                {
+                    "source": "text: \"General settings\"",
+                    "target": "text: \"General settings\""
+                },
+                {
+                    "source": "text: \"Search settings\"",
+                    "target": "text: \"Search settings\""
+                },
+                {
+                    "source": "text: \"Files display\"",
+                    "target": "text: \"Files display\""
+                },
+                {
+                    "source": "text: \"Appearance\"",
+                    "target": "text: \"Appearance\""
+                },
+                {
+                    "source": "text: \"Heatmap settings\"",
+                    "target": "text: \"Heatmap settings\""
+                },
+                {
+                    "source": "name: \"Open new Home tab\"",
+                    "target": "name: \"Open new Home tab\""
+                },
+                {
+                    "source": "name: \"Replace current tab\"",
+                    "target": "name: \"Replace current tab\""
+                }
+            ]
+        }
+    }
+}

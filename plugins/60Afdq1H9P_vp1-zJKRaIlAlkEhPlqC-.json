@@ -1,0 +1,92 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "homepage",
+        "version": "1.0.0",
+        "title": "[feichuan][zh-cn] Homepage",
+        "description": "Homepage Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "4.4.2",
+        "author": "feichuan"
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "option",
+                    "target": "选项"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "article",
+                    "target": "文章"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "No custom daily note settings found!",
+                    "target": "未找到自定义日记设置！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "No custom weekly note settings found!",
+                    "target": "未找到自定义周记设置！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "No custom monthly note settings found!",
+                    "target": "未找到自定义月记设置！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "No custom quarterly note settings found!",
+                    "target": "未找到自定义季度笔记设置！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "No custom yearly note settings found!",
+                    "target": "未找到自定义年度笔记设置！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Failed to read the daily note template",
+                    "target": "读取日记模板失败"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Unable to create new file.",
+                    "target": "无法创建新文件。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "New tab",
+                    "target": "新标签页"
+                }
+            ],
+            "regex": [
+                {
+                    "source": "Notice(\"Failed to read the daily note template\")",
+                    "target": "Notice(\"Failed to read the daily note template\")"
+                },
+                {
+                    "source": "Notice(\"Unable to create new file.\")",
+                    "target": "Notice(\"Unable to create new file.\")"
+                },
+                {
+                    "source": "page:\"Open homepage\"",
+                    "target": "page:\"Open homepage\""
+                }
+            ]
+        }
+    }
+}
